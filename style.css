@@ -343,4 +343,15 @@ section {
     text-align: center;
     margin: 20px 0;
   }
+
+  .galeria-grid {
+    grid-template-columns: 1fr; /* 1 coluna */
+  }
+
+  .galeria-grid img {
+    width: 100%;
+    height: 250px;      /* altura fixa */
+    object-fit: cover;  /* corta a imagem sem distorcer */
+    border-radius: 12px;
+  }
 }
