@@ -26,6 +26,8 @@ header {
   z-index: 1000;
   transition: box-shadow 0.3s ease, background 0.3s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  height: 110px; /* altura fixa do header */
+  padding: 0 40px; /* tira padding vertical */
 }
 
 header.scrolled {
@@ -35,7 +37,7 @@ header.scrolled {
 
 header .logo img {
   transition: transform 0.3s ease;
-  height: 100px;
+  height: 120px;
 }
 
 header .logo img:hover {
